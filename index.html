@@ -23,15 +23,23 @@
       <a href="https://vk.com/id181451753" target="_blank">VK</a>
     </div>
   </div>
-  <div class="card bg-yellow">
+  <hr>
+  <div class="tabs">
+            <input id="tab1" type="radio" name="tabs" checked>
+            <label for="tab1">Мои хобби</label>
+            <input id="tab2" type="radio" name="tabs">
+            <label for="tab2">Опыт работы</label>
+            <input id="tab3" type="radio" name="tabs">
+            <label for="tab3">Связаться со мной</label>
+  <section id="content-tab1" class="card bg-yellow">
     <h2>Мои хобби</h2>
     <ol class="list">
       <li>Путешествия</li>
       <li>Спорт</li>
       <li>Вязание</li>
     </ol>
-  </div>
-  <div class="card bg-red">
+  </section>
+  <section id="content-tab2" class="card bg-red">
   <h2>Опыт работы</h2>
     <table class="table">
       <!-- <thead>
@@ -54,8 +62,8 @@
         </tr>
       </tbody>
     </table>
-  </div>
-  
+  </section>
+  <section id="content-tab3" class="card bg-yellow">
   <form action="/" class="form">
     <h2>Связаться со мной</h2>
     <div class="form-row">
@@ -76,6 +84,9 @@
 
     <input class="btn" type="submit" value="Отправить!">
   </form>
+  <br>
+  </section>
+  </div>
 </div>
 </body>
 </html>
